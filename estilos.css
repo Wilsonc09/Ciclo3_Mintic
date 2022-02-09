@@ -1,0 +1,21 @@
+p{
+    color: blue;
+}
+#par2{
+    color: blueviolet;
+}
+.clas1{
+    color: brown;
+    font-size: x-large;
+    font-weight: 100;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.imgp{
+    height: 300px;
+}
+section{
+    margin: 10px;
+    border: 2px solid red;
+}
