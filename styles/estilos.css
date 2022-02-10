@@ -21,7 +21,7 @@ ul{
 .button:hover{
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 2px 2px rgb(12, 15, 12);
+    box-shadow: 1px 1px rgb(156, 158, 156);
 }
 .mainbutton{
     background-color: #1bb76e;
@@ -36,6 +36,14 @@ ul{
     display: flex ;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(223, 235, 233);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar > li{
+    display: flex;
+    align-items: center;
 }
 
 .buscar{
@@ -43,6 +51,9 @@ ul{
     border: 1px solid rgb(126, 126, 126);
     padding: 3px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -52,4 +63,27 @@ ul{
 .buscar > input{
     outline: none;
     border: 0px;
+}
+
+.iconsea:hover{
+    color: #1bb76e;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+}
+.contImg{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contImg > img{
+    object-fit:cover;
+    width: 100%;
 }
