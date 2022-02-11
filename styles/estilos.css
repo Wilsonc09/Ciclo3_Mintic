@@ -36,7 +36,7 @@ ul{
     display: flex ;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgb(223, 235, 233);
+    background-color: rgb(253, 249, 237);
     border-bottom: 1px solid gray;
     box-shadow: 1px 1px gray;
 }
@@ -57,7 +57,7 @@ ul{
 }
 
 .buscar:focus-within{
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(116, 96, 58);
 }
 
 .buscar > input{
@@ -66,7 +66,14 @@ ul{
 }
 
 .iconsea:hover{
-    color: #1bb76e;
+    color: #7c8380;
+}
+
+.titulo{
+    display: flex;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
 }
 
 .cards{
@@ -76,14 +83,45 @@ ul{
 
 .card{
     margin: 10px;
+    background-color: rgb(104, 91, 91);
+    box-shadow: 5px 10px 5px rgb(207, 207, 207);
+    border-radius: 10px;
 }
+
+.btitle{
+    color: rgb(251, 253, 255);
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .contImg{
     width: 240px;
     height: 350px;
     display: flex;
+    margin-bottom: 5px;
+}
+
+.contImg:hover{
+    cursor: grab;
+    transform: scale(1.02);
 }
 
 .contImg > img{
     object-fit:cover;
     width: 100%;
+    border-radius: 10px;
 }
+
+.social{
+    display: flex;
+}
+
+.social > div{
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
