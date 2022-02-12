@@ -1,7 +1,9 @@
 
 function PageTienda1(){
     return(
-        <div>Pagina info de la tienda 1</div>
+        <div>
+            Info tienda 1
+        </div>
     )
 }
 

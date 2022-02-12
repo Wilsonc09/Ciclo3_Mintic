@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 function CardTienda(props){
     return(
         <li className="card">
-            <Link to='/tienda1'>
+            <Link to={props.path}>
                 <div className="contImg">
                     <img src={props.imgtienda} alt={props.nombre}/>
                 </div>
